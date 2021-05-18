@@ -1,0 +1,10 @@
+{
+  "User" : "Usuario",
+  "Club" : "Club",
+  "Lenguage" : "Idioma",
+  "ErrorDatosIns" : "Introduce todos los datos",
+  "Mail" : "Email no valido",
+  "Wrong" : "Email incorrecto o contraseña incorrecta",
+  "PaswordMatch" : "Las contraseñas no coinicen",
+  "PassWordLenght" : "El largo tiene que ser minimo de 8"
+}

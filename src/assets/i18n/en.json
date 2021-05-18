@@ -1,0 +1,10 @@
+{
+  "User" : "User",
+  "Club" : "Club",
+  "Lenguage" : "Lenguage",
+  "ErrorDatosIns" : "Pls introduce all date",
+  "Mail" : "Mail not valid",
+  "Wrong" : "Email incorrect o Password incorrecta",
+  "PaswordMatch" : "Fill al camps",
+  "PassWordLenght" : "Password minimun lengh 8"
+}

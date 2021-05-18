@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title >Login </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <form  class="ion-padding">
+      <div class="wrap-input">
+        <input class="input"  [ngStyle]="{'border': '2px solid ' + this.color}" [(ngModel)]="correo" name="correo" type="text" placeholder="Email" (keyup)="emailValid()" required>
+      </div>
+      <div class="wrap-input">
+        <input class="input" [(ngModel)]="password" name="password" type="password" placeholder="Password" required>
+      </div>
+
+    <div class="container-form-btn">
+      <button class="form-btn" type="button" color="danger" expand="block" (click)="onLogin()">Sign In</button>
+    </div>
+    <a [routerLink]="['/register']">Create an account</a>
+  </form>
+</ion-content>
